@@ -3,8 +3,8 @@ CXX		= c++
 CFLAGS	= -Wextra -Werror -Wall -std=c++98
 
 # Todos los .cpp en el directorio actual
-SRC		= main.cpp Serializer.cpp Data.cpp
-HPP		= Serializer.hpp Data.hpp
+SRC		= main.cpp
+HPP		= Base.hpp A.hpp B.hpp C.hpp
 # Genera los .o correspondientes
 OBJ		= $(SRC:.cpp=.o)
 
